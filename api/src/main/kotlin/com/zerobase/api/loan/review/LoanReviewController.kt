@@ -12,7 +12,7 @@ class LoanReviewController(
         private val loanReviewServiceImpl: LoanReviewServiceImpl
 ) {
 
-    @GetMapping("review/userKey")
+    @GetMapping("review/{userKey}")
     fun getReviewData(
             @PathVariable userKey: String
     ): ResponseEntity<LoanReviewDto.LoanReviewResponseDto>{
