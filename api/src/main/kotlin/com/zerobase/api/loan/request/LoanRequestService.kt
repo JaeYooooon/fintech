@@ -13,7 +13,6 @@ interface LoanRequestService {
         userInfoDto: UserInfoDto
     ): UserInfo
 
-    fun loanRequestReview(userKey: String){
-//        TODO("Not yet implemented")
+    fun loanRequestReview(userInfoDto: UserInfoDto){
     }
 }

@@ -3,8 +3,8 @@ package com.zerobase.api.loan.request
 class LoanRequestDto {
     data class LoanRequestInputDto(
             val userName: String,
-            val userIncomeAmount: Long,
-            var userRegistrationNumber: String
+            var userRegistrationNumber: String,
+            val userIncomeAmount: Long
     ){
         fun toUserInfoDto(userKey: String) =
                 UserInfoDto(
@@ -12,6 +12,6 @@ class LoanRequestDto {
                 )
     }
     data class LoanRequestResponseDto(
-            val userKet: String
+            val userKey: String
     )
 }
