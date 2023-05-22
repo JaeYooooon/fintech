@@ -14,7 +14,7 @@ class LoanRequestService(
         private val loanReviewRepository: LoanReviewRepository
 ) {
     companion object {
-        const val nginxUrl = "http://localhost:8081/css/api/v1/request"
+        const val nginxUrl = "http://nginx:8085/css/api/v1/request"
     }
 
     fun loanRequest(loanRequestDto: LoanRequestDto) {
