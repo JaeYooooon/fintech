@@ -1,12 +1,8 @@
 package com.zerobase.css.controller
 
-import com.zerobase.css.dto.LoanRequestDto
-import com.zerobase.css.dto.LoanResultDto
+import com.zerobase.css.dto.*
 import com.zerobase.css.service.LoanReviewService
-import org.springframework.web.bind.annotation.PostMapping
-import org.springframework.web.bind.annotation.RequestBody
-import org.springframework.web.bind.annotation.RequestMapping
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.bind.annotation.*
 
 @RestController
 @RequestMapping("/css/api/v1")

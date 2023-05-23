@@ -1,7 +1,6 @@
 package com.zerobase.css.service
 
-import com.zerobase.css.dto.LoanRequestDto
-import com.zerobase.css.dto.LoanResultDto
+import com.zerobase.css.dto.*
 import org.springframework.stereotype.Service
 import java.lang.RuntimeException
 
